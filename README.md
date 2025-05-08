@@ -11,6 +11,15 @@
 - 🌱 MySQL database  
 - 📁 Project structure with controllers, routes, and config separation
 
+## 🚀 ເປີດ ເຊີບເວີ
+ 
+
+```
+node index.js
+
+ຫລືໃຊ້ nodemon:
+```
+npx nodemon index.js
 
 ## 🔧 Installation ວິທີຕິດຕັ້ງ
 
@@ -37,12 +46,7 @@ JWT_SECRET=your_jwt_secret_key
 JWT_EXPIRES_IN=1h
 ✅ ຕ້ອງມີໄຟລນີ້ .env 
 
-🚀 Running the Server
 
-
-node index.js
-or if you're using nodemon:
-npx nodemon index.js
 
 🔌 API Endpoints
 Method	Endpoint	        Description
