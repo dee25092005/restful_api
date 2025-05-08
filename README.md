@@ -17,9 +17,12 @@
 ```
 node index.js
 
-ຫລືໃຊ້ nodemon:
 ```
-npx nodemon index.js
+ຫລືໃຊ້ nodemon:
+
+```
+ nodemon index.js
+```
 
 ## 🔧 Installation ວິທີຕິດຕັ້ງ
 
@@ -47,8 +50,9 @@ JWT_EXPIRES_IN=1h
 ✅ ຕ້ອງມີໄຟລນີ້ .env 
 
 
+```
 
-🔌 API Endpoints
+## 🔌 API Endpoints
 Method	Endpoint	        Description
 GET	    /users	            Get all active users
 GET	    /users/deleted	    Get all deleted users
@@ -59,7 +63,9 @@ DELETE	/users/:id	        Soft delete a user
 POST	/users/:id/restore	Restore soft-deleted user
 POST	/login	            Login user (get token)
 
-🔐 Authentication
+
+
+## 🔐 Authentication
 ເພີ່ມນີ້ເຂົ້າໄປສ່ວນທີ່ມີ protected routes:
 
 http
