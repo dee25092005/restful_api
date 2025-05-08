@@ -1,6 +1,6 @@
 # Node.js RESTful API
 
-This is a RESTful API built with **Node.js**, **Express**, and **MySQL**. It includes features such as user authentication (JWT), role-based access, and soft-delete with restore functionality.
+ນີ້ເເມ່ນໂປຣເຈັກ ເພື່ອສຶກສາ RESTful API ສ້າງໂດຍ **Node.js**, **Express**, and **MySQL**. ລວມເຖິງເຟີເຈີ້ເສີມ ເຊັ່ນ authentication (JWT), role-based access, and soft-delete with restore.
 
 ## 📦 Features ຟີເຈີ້ຕ່າງໆ
 
