@@ -53,6 +53,7 @@ JWT_EXPIRES_IN=1h
 ```
 
 ## 🔌 API Endpoints
+```
 Method	Endpoint	        Description
 GET	    /users	            Get all active users
 GET	    /users/deleted	    Get all deleted users
@@ -63,7 +64,7 @@ DELETE	/users/:id	        Soft delete a user
 POST	/users/:id/restore	Restore soft-deleted user
 POST	/login	            Login user (get token)
 
-
+```
 
 ## 🔐 Authentication
 ເພີ່ມນີ້ເຂົ້າໄປສ່ວນທີ່ມີ protected routes:
