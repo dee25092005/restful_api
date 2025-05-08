@@ -18,10 +18,10 @@
 # Clone the repository
 git clone https://github.com/dee25092005/restful_api.git
 
-# Navigate to the project directory
+# ເຂົ້າໄປຫາໂຟເດີ
 cd restful_api
 
-# Install dependencies
+# ຕິດຕັ້ງ env
 npm install
 ⚙️ Environment Variables
 Create a .env file in the root directory:
@@ -56,7 +56,7 @@ POST	/users/:id/restore	Restore soft-deleted user
 POST	/login	            Login user (get token)
 
 🔐 Authentication
-Add this header to access protected routes:
+ເພີ່ມນີ້ເຂົ້າໄປສ່ວນທີ່ມີ protected routes:
 
 http
 
